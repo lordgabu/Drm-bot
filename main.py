@@ -13,13 +13,13 @@ from aiohttp import web
 
 # Config 
 class Config(object):
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7979826252:AAG6PkktURFL-udAd3KipzwiFXp6FEQDbCg")
-    API_ID = int(os.environ.get("API_ID",  "23442913"))
-    API_HASH = os.environ.get("API_HASH", "864a97e16b4ff7dc65ff5e2d1549b4a2")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7663717221:AAGDz9eKMJcVcIX1q8l_j_UBxWRbnJ8cri0")
+    API_ID = int(os.environ.get("API_ID",  "21716342"))
+    API_HASH = os.environ.get("API_HASH", "9aab81717b40ade1d805023b707a7136")
     DOWNLOAD_LOCATION = "./DOWNLOADS"
     SESSIONS = "./SESSIONS"
 
-    AUTH_USERS = os.environ.get('AUTH_USERS', '7841326954').split(',')
+    AUTH_USERS = os.environ.get('AUTH_USERS', '6936425004').split(',')
     for i in range(len(AUTH_USERS)):
         AUTH_USERS[i] = int(AUTH_USERS[i])
 
